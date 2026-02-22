@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# dbt
+target/
+dbt_packages/
+logs/
+dbt_project/target/
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+/logs/
+/plugins/
+
+# Data files
+*.csv
+*.parquet
+*.avro
+*.orc
+*.json.gz
+*.tsv
+data/raw/
+data/processed/
+data/interim/
+
+# Secrets & credentials
+*.pem
+*.key
+*.p12
+secrets/
+credentials/
+service_account*.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Terraform (if used for infra)
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Node (for any tooling)
+node_modules/
