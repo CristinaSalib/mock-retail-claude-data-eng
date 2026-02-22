@@ -1,0 +1,7 @@
+[project]
+name = "mock-retail-claude-data-eng"
+version = "0.1.0"
+description = "Data engineering project for a mock retail store using Postgres and DuckDB"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
